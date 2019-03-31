@@ -1,0 +1,41 @@
+.has-bg {
+
+  background-image: url("../images/plexus.png") ;
+  background-position: center left;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.clear-fix {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), #ffffff 100%); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+  background:    -moz-linear-gradient(to bottom, #00000000 0%, #ffffff 100%); /* For Firefox (3.6 to 15) */
+  background:      -o-linear-gradient(to bottom, #00000000 0%, #ffffff 100%); /* For old Opera (11.1 to 12.0) */ 
+  background:         linear-gradient(to bottom, #00000000 0%, #ffffff 100%); /* Standard syntax; must be last */
+  text-shadow: 0px 0px 2px #000000;
+}
+.has-tr-bg-color {
+  /* background-color: transparent; */
+  background-color: rgba(255, 255, 255, 0.74) !important;
+  backdrop-filter: blur(50px) !important;
+}
+
+.navbar-item:hover {
+  background: rgba(255, 255, 255, 0.342) !important;
+  /* backdrop-filter: blur(50px) !important; */
+}
+
+.card:hover,  .tag.is-info:hover, .timeline-marker:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+svg{
+  display: block;
+  margin: auto;
+}
