@@ -29,11 +29,17 @@
   /* backdrop-filter: blur(50px) !important; */
 }
 
-.card:hover,  .tag.is-info:hover, .timeline-marker:hover {
+.card:hover,  .tag.is-info:hover, .timeline-marker:hover, .centered:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
 
 svg{
   display: block;
